@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. shared.sh
+
+exec docker -H $DOCKER_SOCK $@
